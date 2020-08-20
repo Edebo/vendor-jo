@@ -1,0 +1,192 @@
+/*#049F4A #004523*/
+body {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI regular";
+  color: #1d1f23af;
+}
+
+.mail-container {
+  width: 60%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f3ed;
+}
+
+.content {
+  width: 60%;
+}
+.lg-banner {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.lg-banner :nth-child(2) {
+  font-size: 1.5rem;
+  color: #049f4a;
+  font-weight: 500;
+}
+
+/*pages links*/
+
+.pages-link {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  list-style: none;
+}
+
+.pages-link li {
+  text-align: center;
+  height: 20px;
+}
+
+.pages-link a {
+  display: inline-block;
+  color: #1d1f23af;
+  text-decoration: underline;
+  line-height: 1.5;
+  padding: 0 8px;
+  border-right: 1.5px solid #1d1f23af;
+  font-size: 16px;
+  height: 20px;
+}
+.pages-link li:last-child a {
+  border: none;
+}
+.inner-con-1 {
+  background-color: #fff;
+  padding: 1.8em 12px;
+  border-bottom: 2px solid #eaeaea;
+}
+.welcome {
+  text-align: center;
+
+  margin: 1em 0.5em;
+}
+.welcome h1 {
+  font-size: 25px;
+  color: #6e6e6e;
+  font-weight: bold;
+}
+
+.welcome h1:last-child {
+  color: #049f4a;
+  font-weight: 700;
+}
+
+.wcm-body {
+  padding-top: 4em;
+  color: #1d1f23af;
+  border-top: 2px solid #eaeaea;
+}
+
+.wcm-body div span {
+  font-weight: 600;
+}
+
+.u-data-con {
+  margin-top: 2em;
+}
+
+.u-data {
+  background-color: #004523;
+  color: #fff;
+  padding: 1em 0.5em;
+  margin-bottom: 1em;
+}
+
+.u-data p {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+.confirm p a {
+  word-wrap: break-word;
+}
+
+.confirm p span {
+  font-weight: 500;
+}
+
+.socials-con {
+  margin-top: 1em;
+}
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials i {
+  color: #fff;
+}
+
+.soc-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 6px;
+}
+
+.fb .soc-icon {
+  background-color: #15c;
+}
+.ytube .soc-icon {
+  background-color: #bb312c;
+}
+
+.vh .soc-icon {
+  background-color: #54be93;
+}
+
+.inner-foot {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/****mail-footer******/
+
+.mail-ftr {
+  background-color: #004523;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2em 10px;
+  text-align: center;
+  word-spacing: normal;
+  font-size: 12px;
+}
+
+.mail-ftr p a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.unsub span:nth-child(2) {
+  width: 1px;
+  height: 14px;
+  display: inline-block;
+  background: #fff;
+  margin: 0 10px;
+}
