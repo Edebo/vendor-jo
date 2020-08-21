@@ -1,0 +1,209 @@
+/*#049F4A #004523*/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI regular";
+  color: #1d1f23af;
+}
+
+.mail-container {
+  width: 60%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f3ed;
+  word-wrap: break-word;
+}
+
+.content {
+  width: 80%;
+}
+.lg-banner {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.o-num {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #049f4a;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 2px;
+}
+
+.inner-con-1 {
+  background-color: #fff;
+  padding: 1.8em 12px;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.sth-cart {
+  color: #a39d92;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.h-cart {
+  font-size: 1em;
+  font-weight: bold;
+}
+.welcome {
+  text-align: center;
+
+  margin: 1em 0.5em;
+}
+.welcome h1 {
+  font-size: 25px;
+  color: #6e6e6e;
+  font-weight: bold;
+}
+
+.welcome h1:last-child {
+  color: #049f4a;
+  font-weight: 700;
+}
+
+.cart {
+  padding-top: 1em;
+  color: #1d1f23af;
+  border-top: 2px solid #eaeaea;
+}
+
+.cart h1 {
+  margin: 0;
+}
+
+.cart-tb {
+  padding: 10px 0;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  width: 100%;
+  text-align: left;
+}
+
+table.cart-tb tr {
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); */
+}
+
+td span {
+  /* border: 1px solid black; */
+  display: block;
+  margin: 10px;
+}
+td,
+th {
+  font-weight: 600;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+
+.ct-price {
+  color: #004523;
+}
+
+.img-contain {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid #eaeaea;
+}
+
+.cart-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.sh-btn {
+  background: #049f4a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+
+  border-radius: 3px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  margin-left: auto;
+}
+.sh-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.sh-btn:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-con {
+  display: flex;
+  width: 100%;
+}
+
+.inner-foot {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/****mail-footer******/
+
+.mail-ftr {
+  background-color: #004523;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2em 10px;
+  text-align: center;
+  word-spacing: normal;
+  font-size: 12px;
+}
+
+.mail-ftr p a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.unsub span:nth-child(2) {
+  width: 1px;
+  height: 14px;
+  display: inline-block;
+  background: #fff;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mail-container {
+    width: 100%;
+  }
+
+  .content {
+    width: 80%;
+  }
+  .sh-btn {
+    margin: auto;
+  }
+}

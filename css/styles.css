@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   min-height: 60px;
-
+  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -39,6 +39,7 @@ body {
   font-size: 1.5rem;
   color: #049f4a;
   font-weight: 500;
+  margin-top: 12px;
 }
 
 /*pages links*/
@@ -48,6 +49,7 @@ body {
   justify-content: space-evenly;
   padding: 1rem;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .pages-link li {
@@ -189,4 +191,31 @@ body {
   display: inline-block;
   background: #fff;
   margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mail-container {
+    width: 100%;
+  }
+  .content {
+    width: 80%;
+  }
+
+  .lg-banner {
+    display: block;
+  }
+
+  .logo {
+    width: 150px;
+    margin: 0 auto;
+  }
+  .lg-banner :nth-child(2) {
+    text-align: center;
+  }
+
+  .ytube,
+  .vh,
+  .fb {
+    text-align: center;
+  }
 }
