@@ -1,0 +1,145 @@
+/*#049F4A #004523*/
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI regular";
+  color: #1d1f23af;
+}
+
+.mail-container {
+  width: 60%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f3ed;
+  word-wrap: break-word;
+}
+
+hr {
+  width: 250px;
+  margin: 2em auto;
+  border-top: 1px solid #eaeaea;
+}
+
+.content {
+  width: 80%;
+}
+.lg-banner {
+  display: flex;
+  justify-content: space-between;
+  min-height: 60px;
+
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.o-num {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #049f4a;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-top: 2px;
+}
+
+.inner-con-1 {
+  background-color: #fff;
+  padding: 1.8em 12px;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.inner-con-1 h1 {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.inner-con-1 p {
+  font-weight: 400;
+}
+
+.confirm-btn {
+  background: #049f4a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+
+  border-radius: 3px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+
+  margin-left: auto;
+}
+.confirm-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.confirm-btn:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.btn-con {
+  width: 100%;
+}
+
+.inner-foot {
+  text-align: center;
+  margin-top: 1em;
+}
+
+/****mail-footer******/
+
+.mail-ftr {
+  background-color: #004523;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2em 10px;
+  text-align: center;
+  word-spacing: normal;
+  font-size: 12px;
+}
+
+.mail-ftr p a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.unsub span:nth-child(2) {
+  width: 1px;
+  height: 14px;
+  display: inline-block;
+  background: #fff;
+  margin: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .mail-container {
+    width: 100%;
+  }
+
+  .content {
+    width: 80%;
+  }
+  .sh-btn {
+    margin: auto;
+  }
+}
